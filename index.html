@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>B2B Business Landing Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            <!-- Por logotipo aqui-->
+            <a href=\index.html>KMT Technology </a>
+            <a href=\services.html>Serviços</a>
+            <a href="#about-us">Sobre a KMT</a>
+        </div>
+        <div class="right">
+            <button id="sign-up">Contacte-nos</button>
+        </div>
+    </header>
+    <main>
+        <article>
+            <div class="title">
+                <div class="arrow-wrapper"></div>
+                <h>Excelentes <span id="underline">Projetos</span> começam com uma excelente <span
+                        id="underline">consultoria</span></h>
+            </div>
+            <div class="subtitle">
+                <p id="subtitle1">Com a KMT nós estamos preparados para garantir o crescimento e o avanço do seu negócio
+                    hoje.</p>
+            </div>
+            <div class="hero-img"></div>
+            <div class="companies">
+                <img src="data:image/png;base64,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"
+                    id="medium-logo">
+                <img src="https://logos-world.net/wp-content/uploads/2020/09/Microsoft-Logo.png" id="medium-logo">
+                <img src="https://1000logos.net/wp-content/uploads/2021/05/Google-logo.png" id="medium-logo">
+                <img src="data:image/png;base64,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"
+                    id="medium-logo">
+            </div>
+            <div class="blog-wrapper" id="blog">
+                <div class="blog-post-wrapper">
+                    <div class="blog-img">
+                        <img src="https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YnVzaW5lc3N8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                            id="blog-img">
+                    </div>
+                    <div class="blog-content">
+                        <h>Temos a <span id="underline">melhor solução</span> para o seu negócio</h>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <div class="services" id="services">
+            <div class="service-header">
+                <h1>Nossos serviços</h1>
+                <div class="cards-wrapper">
+                    <div class="card">
+                        <h2>Marketing</h2>
+                        <div class="icon">
+                            <ion-icon name="bar-chart">
+                                <i class='fa fa-bar-chart'></i>
+                            </ion-icon>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus lorem dui, sed ornare
+                            nibh porttitor in.
+                            Pellentesque enim lectus, ullamcorper eu purus a, finibus elementum justo.</p>
+                    </div>
+                    <div class="card">
+                        <h2>Análise</h2>
+                        <div class="icon">
+                            <ion-icon name="eyedrop"></ion-icon>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus lorem dui, sed ornare
+                            nibh porttitor in.
+                            Pellentesque enim lectus, ullamcorper eu purus a, finibus elementum justo.</p>
+                    </div>
+                    <div class="card">
+                        <h2>Auditoria & Contabilidade</h2>
+                        <div class="icon">
+                            <ion-icon name="wallet"></ion-icon>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus lorem dui, sed ornare
+                            nibh porttitor in.
+                            Pellentesque enim lectus, ullamcorper eu purus a, finibus elementum justo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer-07">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12 text-center">
+                    <h2 class="footer-heading"><a href="#" class="logo">KMT Technology</a></h2>
+                    <p class="menu">
+                        <a href="#">Início</a>
+                        <a href="#">Serviços</a>
+                        <a href="#">Sobre a KMT</a>
+                        <a href="#">Contatos</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-12 text-center">
+                    <p class="copyright">
+                        Copyright ©
+                        <script>document.write(new Date().getFullYear());</script> Todos os direitos reservados | Este website foi feito 
+                        <i class="ion-ios-heart" aria-hidden="true"></i> por <a
+                            href="https://www.linkedin.com/in/jo%C3%A3o-carvalho-007a18176/" target="_blank">João Carvalho</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
